@@ -1,4 +1,4 @@
-### Veterinary Practice Database 
+# Veterinary Practice Database 
 ## About 
 I built this database for a college project. The assignment required students to design and construct a database that can be deployed in a commercial database management system. 
 
