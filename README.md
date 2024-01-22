@@ -1,3 +1,8 @@
+### Veterinary Practice Database 
+## About 
+I built this database for a college project. The assignment required students to design and construct a database that can be deployed in a commercial database management system. 
+
+The professor provided us with a scenario where we had to design a database for a veterinary practice.
 
 ## Design Rationale
 The design of the VPDB is based on my own experience of attending veterinary practices with the family dog. The experience helped me to decide on which entities (or tables) to include in the ERD. A lot of my effort went into developing the correct cardinality between the entities. My design decisions took inspiration mainly from Nalimov (2021) and Nardozzi (n.d.). Additionally, I cite Brumm (2019) on how to create bridge tables.
