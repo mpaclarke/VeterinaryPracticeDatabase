@@ -6,6 +6,7 @@ The professor provided us with a scenario where we had to design a database for 
 
 ## Design Rationale
 The design of the VPDB is based on my own experience of attending veterinary practices with the family dog. The experience helped me to decide on which entities (or tables) to include in the ERD. A lot of my effort went into developing the correct cardinality between the entities. My design decisions took inspiration mainly from Nalimov (2021) and Nardozzi (n.d.). Additionally, I cite Brumm (2019) on how to create bridge tables.
+
 For the design, I decided that the appointment would be the starting point for the VPDB workflow. The appointment is made for the animal and not the owner, but the owner is the parent of one or many animal entities. Additionally, the appointment joins the animal with a member of staff (vet or veterinary nurse). Next, the appointment forms a relationship with the diagnosis. The diagnosis has a number of relationships as it bridges with the food, medicine and procedure entities, and is the parent to the invoice entity. Finally, the Payment table bridges the invoice with the owner.
 
 My aim was to capture a logical workflow from appointment to payment, and to demonstrate a practical cardinality between the entities. Additionally, I tried to avoid data redundancy by ensuring that there was no repetition of attributes between tables, and that table object retained their own data: for example the cost of the food is contained in the Food table and not the Invoice table.
